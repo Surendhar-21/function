@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+Void sum(int a[]);
+i=1;
+main()
+{
+ int a[],n,i;
+Printf("enter total number to be add");
+Scanf("%d",&n);
+ For(i=1;i<=n;i++)
+{
+ Scanf("%d",&a[i]);
+
+} 
+
+  
+ 
+  Sum(a[]);
+}
+ 
+Void sum(int a[i]);
+{
+   Sum=O;
+ 
+  
+     if(i>0)
+    Sum=sum+sum(a[i++])+a[i];
+     
+  
+  
+    else
+     Printf ("%d",sum);
+   
+}
